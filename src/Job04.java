@@ -4,6 +4,7 @@ public class Job04 {
 
     // Méthode qui affiche la factorielle
     public static long factorielle(int n) {
+
         long resultat = 1; // initialiser le résultat
 
         System.out.print("Si ton N = " + n + ", alors " + n + "! = ");

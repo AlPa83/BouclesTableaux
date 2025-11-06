@@ -22,7 +22,7 @@ public class Job05 {
         System.out.print("Entrez le nombre N : ");
         int N = scanner.nextInt();
 
-        // On appelle la méthode
+        // Appel de la méthode
         damier(N);
 
         scanner.close();

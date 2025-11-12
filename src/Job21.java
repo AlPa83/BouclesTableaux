@@ -14,7 +14,7 @@ public class Job21 {
             int numbertoFind = sc.nextInt();
 
             // Condition de sortie
-            if (numbertoFind == 0) {
+            if (numbertoFind == 00) {
                 break;
             }
 

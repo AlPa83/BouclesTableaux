@@ -35,12 +35,9 @@ public class Job16 {
         // Affichage de chaque note et de son écart par rapport à la moyenne
         for (int i = 0; i < notes.length; i++) {
             int ecart = notes[i] - (int) moyenne;
-            String signe;
-            if (ecart >= 0) {
-                signe = "+";
-            } else {
-                signe = "";
-            }
+            String signe = (ecart >= 0) ? "+" : ""; /* Si ecart >= 0 est vrai, alors signe après l'écart prend la valeur "+",
+            ex. Note 3: 5, écart: = +1
+            Sinon ecart < 0, signe prend la valeur "" (chaîne vide) */
 
             System.out.println("Note " + (i + 1) + ": " + notes[i] + ", écart: " + signe + ecart);
         }
